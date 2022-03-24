@@ -1,0 +1,42 @@
+main {
+  background: #f2f3f4;
+}
+h1,
+h2,
+p {
+  text-align: center;
+}
+#img-div {
+  background: #fff;
+  padding: 10px;
+}
+#image {
+  margin: 0 auto;
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+#tribute-info {
+  width: 50%;
+  margin: 10px auto;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.tribute-quotation {
+  font-style: italic;
+  color: #6e7f80;
+  text-align: left;
+}
+
+.more {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+a {
+  color: #a1caf1;
+}
