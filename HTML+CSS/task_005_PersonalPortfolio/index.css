@@ -12,29 +12,26 @@ li {
   list-style: none;
 }
 
-body {
+.container {
+  width: 100vw;
   color: #f2f3f4;
 }
-
 #navbar {
   background-color: #c41e3a;
   padding: 1.5rem;
-  margin-bottom: 0;
   position: fixed;
   width: 100%;
   z-index: 2;
 }
 
-#navbar ul {
+.nav-list ul {
   display: flex;
-  flex-direction: row;
   column-gap: 2rem;
   font-size: 1.2rem;
 }
 
 #welcome-section {
   background-color: #36454f;
-  width: 100vw;
   height: 100vh;
   text-align: center;
   display: flex;
@@ -60,12 +57,13 @@ body {
   width: 100vw;
 }
 
-h2 {
+.underline {
   padding-top: 3.5rem;
   padding-bottom: 2rem;
   transition: text-decoration 1s;
 }
-h2:hover {
+
+.underline:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -159,5 +157,5 @@ h2:hover {
 #profile-link {
   font-size: 1.4rem;
   text-shadow: 2px 2px 1px #1f1f1f;
-  transition: transform 0.3s ease-out;
+  transition: transform 0.7s ease-out;
 }
