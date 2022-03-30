@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+:root {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
   color: #f2f3f4;
@@ -18,16 +23,25 @@ li {
 }
 #navbar {
   background-color: #c41e3a;
-  padding: 1.5rem;
   position: fixed;
   width: 100%;
   z-index: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1.5rem 2rem;
 }
 
 .nav-list ul {
   display: flex;
-  column-gap: 2rem;
   font-size: 1.2rem;
+  margin-right: 3rem;
+}
+.nav-list a {
+  padding: 1.5rem;
+}
+.nav-list a:hover {
+  background-color: #e32636;
 }
 
 #welcome-section {
@@ -58,14 +72,9 @@ li {
 }
 
 .underline {
+  position: relative;
   padding-top: 3.5rem;
   padding-bottom: 2rem;
-  transition: text-decoration 1s;
-}
-
-.underline:hover {
-  text-decoration: underline;
-  cursor: pointer;
 }
 
 .project-con {
@@ -73,6 +82,7 @@ li {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  border-radius: 3px;
 }
 
 .project-title {
@@ -82,25 +92,40 @@ li {
   background-color: #292929;
   font-weight: 700;
   font-size: 1.3rem;
+  transition: all 1s;
 }
-
+.project-title:hover::before {
+  content: "< ";
+  color: #ff7f50;
+}
+.project-title:hover::after {
+  content: " />";
+  color: #ff7f50;
+}
 .project-img {
   width: 100%;
-  height: 300px;
+  height: 100%;
+  object-fit: cover;
 }
 
 .project-con:hover {
   cursor: pointer;
 }
+
 @media screen and (min-width: 732px) {
-  .grid-1x3 {
+  .grid-1x2 {
     width: 90%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
   }
 }
-
+@media screen and (min-width: 1024px) {
+  .grid-1x3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 .btn {
   padding: 1rem;
   border: 0;
@@ -125,7 +150,7 @@ li {
   text-align: center;
   width: 100%;
   background-color: #36454f;
-  height: 60vh;
+  height: 80vh;
   border-bottom: 7px solid #c41e3a;
 }
 
@@ -146,16 +171,34 @@ li {
 }
 
 .contact-list {
+  position: relative;
   display: flex;
   justify-content: center;
   width: 100%;
   max-width: 980px;
-  margin-top: 2rem;
+  margin-top: 3rem;
   flex-wrap: wrap;
 }
 
 #profile-link {
-  font-size: 1.4rem;
+  font-size: 1.2em;
   text-shadow: 2px 2px 1px #1f1f1f;
   transition: transform 0.7s ease-out;
+  padding: 1rem 2rem;
+}
+#profile-link:hover {
+  transform: translateY(10px);
+}
+
+footer {
+  height: 20vh;
+  width: 100vw;
+  background-color: #36454f;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer p {
+  font-size: 1.3rem;
 }
