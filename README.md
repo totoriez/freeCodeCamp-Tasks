@@ -8,6 +8,8 @@
 
 FCC例子：https://codepen.io/freeCodeCamp/full/zNqgVx
 
+完成：https://codepen.io/rinienon/pen/KKZzpjK
+
 - **需求 1：** 此 app 中应存在一个 `id="main"` 的元素，页面上的所有元素都应置于这个元素中。
 - **需求 2：** 此 app 中应存在一个 `id="title"` 的元素，其中包含描述致敬页主题的字符串文本，如 "Dr. Norman Borlaug"。
 - **需求 3：** 此 app 中应存在一个 `id="img-div"` 的 `figure` 或 `div` 元素。
@@ -23,6 +25,8 @@ FCC例子：https://codepen.io/freeCodeCamp/full/zNqgVx
 ### Survey Form
 
 FCC例子：https://codepen.io/freeCodeCamp/full/VPaoNP
+
+完成：https://codepen.io/rinienon/pen/BaJKdvZ
 
 - **需求 1：** 此 app 中应存在一个 `id="title"` 的大小为 H1 的标题。
 - **需求 2：** 此 app 中应存在一段 `id="description"` 的大小为 P 的短小的描述。
@@ -47,6 +51,8 @@ FCC例子：https://codepen.io/freeCodeCamp/full/VPaoNP
 
 例子：https://codepen.io/freeCodeCamp/full/RKRbwL
 
+完成：https://codepen.io/rinienon/pen/MWrjQxx
+
 - **需求 1：** 产品登录页应存在 `id="header"` 的 `header` 元素。
 - **需求 2：** 在 `header` 元素内应存在 `id="header-img"` 的图像， 这里通常用来放置公司的 logo。
 - **需求 3：** 在 `#header` 元素内，应存在一个 `id="nav-bar"` 的 `nav` 元素。
@@ -69,6 +75,8 @@ FCC例子：https://codepen.io/freeCodeCamp/full/VPaoNP
 
 例子：https://codepen.io/freeCodeCamp/full/NdrKKL
 
+完成：https://codepen.io/rinienon/pen/bGawmLo
+
 - **需求 1：** 此 app 中应存在一个 `id="main-doc"` 的 `main` 元素，它包含页面的主要内容（技术文档）。
 - **需求 2：** 在 `#main-doc` 元素内，应有一些 `section` 元素，每个元素的 class 都应为 `main-section`。 应存在至少 5 个这样的元素。
 - **需求 3：** 每个 `.main-section` 内的第一个元素应为 `header` 元素，其中包含描述该部分主题的内容文本。
@@ -90,6 +98,8 @@ FCC例子：https://codepen.io/freeCodeCamp/full/VPaoNP
 Personal Portfolio Webpage
 
 例子：https://codepen.io/freeCodeCamp/full/zNBOYG
+
+完成：https://codepen.io/rinienon/pen/GRyNZYr
 
 - **需求 1：** 此 app 中应存在一个 id 为 `welcome-section` 的欢迎区。
 - **需求 2：** 欢迎区内应存在一个包含标题文本的 `h1` 元素。
