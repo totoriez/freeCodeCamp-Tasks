@@ -195,10 +195,17 @@ footer {
   width: 100vw;
   background-color: #36454f;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
 footer p {
   font-size: 1.3rem;
+}
+@media screen and (min-width: 732px) {
+  footer {
+    flex-direction: row;
+    column-gap: 2rem;
+  }
 }
